@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 
-const MONGO_URL = 'mongodb://pushpak:pushpak@ds249575.mlab.com:49575/employeedb';
+const MONGO_URL = 'mongodb://username:password@ds249575.mlab.com:49575/employeedb';
 
 MongoClient.connect(MONGO_URL, (err, db) => {  
   if (err) {
